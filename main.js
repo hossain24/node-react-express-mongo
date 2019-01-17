@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Data = require('./data');
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000
 
 const db = mongoose.connect('mongodb://hossain:hossain24@ds139614.mlab.com:39614/todo', () => {
     console.log('Database is connected');
