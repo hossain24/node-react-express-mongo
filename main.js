@@ -8,8 +8,6 @@ const db = mongoose.connect('mongodb://hossain:hossain24@ds139614.mlab.com:39614
     console.log('Database is connected');
 });
 
-
-
 app.get('/api/users', (req, res, next) => {
     const users = [
         { id: 1, firstName: "John", lastName: "Snow" },

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../users/users.css';
+import './users.css';
 
 class Users extends Component {
     constructor() {
@@ -19,7 +19,7 @@ class Users extends Component {
 
     render() {
         return (
-            <div className="Users">
+            <div className="users">
                 <h3>Users List: </h3>
                 <ul>
                     {this.state.users.map(user =>
