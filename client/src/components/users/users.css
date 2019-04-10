@@ -14,3 +14,7 @@ li{
     line-height: 20px;
     border-bottom: 1px dotted lightseagreen;
 }
+
+.usersRedux h3{
+    color: blueviolet;
+}

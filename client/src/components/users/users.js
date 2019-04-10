@@ -9,11 +9,11 @@ class Users extends Component {
         }
     }
 
-    componentDidMount() {
+    componentWillMount() {
         fetch('/api/users')
             .then(res => res.json())
             .then(users => this.setState({ users: users }, () => {
-                console.log('The list of usersi is fetched ', users);
+                console.log('The list of users is fetched ', users);
             }))
     }
 

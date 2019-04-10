@@ -13,7 +13,7 @@ app.get('/api/users', (req, res, next) => {
         { id: 1, firstName: "John", lastName: "Snow" },
         { id: 2, firstName: "Jason", lastName: "Hopkin" },
         { id: 3, firstName: "Jonson", lastName: "Kim" }
-    ]
+    ];
 
     res.json(users);
 });
